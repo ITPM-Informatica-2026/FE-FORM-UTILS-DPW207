@@ -36,9 +36,15 @@ Queda prohibido el uso de CSS personalizado dentro de etiquetas `<style>`. Debes
 
 ## 📝 Entregables
 1.  **Código Fuente:** Subido a este repositorio en la rama `main`.
-2.  **Figma Link:** [PEGA AQUÍ TU ENLACE DE FIGMA]
+2.  **Figma Link:*ewn el classroom de la asignatura*
 3.  **Captura de Validación:** Una imagen en la carpeta `docs/` donde se vea el formulario rechazando un dato incorrecto.
 
+---
+## 🤖 Uso de GitHub Copilot (Opcional pero Sugerido)
+Como beneficiarios del GitHub Student Pack, pueden usar Copilot bajo las siguientes reglas:
+1. **Validación Humana:** Todo código generado por IA debe ser explicado por el alumno si el docente lo solicita (D3).
+2. **Prompts Semánticos:** Deben dejar el comentario (prompt) en el código de qué le pidieron a la IA.
+3. **Prioridad 1.4:** Si la IA sugiere CSS en línea, es obligación del alumno corregirlo usando **Utilidades del Framework (Bootstrap)**.
 ---
 
 ## 📑 Ficha Técnica (Uso Exclusivo Docente - FELIX)
