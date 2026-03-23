@@ -1,0 +1,26 @@
+{
+  "name": "DPW207 - Formularios",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "ecmel.vscode-html-css",
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "naumovs.color-highlight",
+        "zignd.html-css-class-completion"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "liveServer.settings.donotShowInfoMsg": true,
+        "editor.fontSize": 14,
+        "editor.tabSize": 2
+      }
+    }
+  },
+  "forwardPorts": [5500]
+}
