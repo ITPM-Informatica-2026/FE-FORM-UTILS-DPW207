@@ -1,0 +1,134 @@
+/* selectores_ejemplo.css (adaptado para el sitio) */
+
+/* Estilos específicos para la demostración de selectores, 
+   usando clases para evitar conflictos con estilos globales. */
+
+.ejemplo-header-selectores {
+    background-color: #4CAF50; /* Un verde agradable */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.ejemplo-header-selectores h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.ejemplo-nav-selectores {
+    background-color: #333; /* Gris oscuro para la barra de navegación */
+    padding: 10px 0;
+}
+
+.ejemplo-nav-selectores ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ejemplo-nav-selectores ul li {
+    display: inline-block; /* Coloca los elementos de la lista en línea */
+    margin-right: 20px;
+}
+
+.ejemplo-nav-selectores ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.ejemplo-nav-selectores .nav-link:hover {
+    background-color: #555; /* Un gris más claro al pasar el ratón */
+    border-radius: 5px;
+}
+
+.ejemplo-nav-selectores .active {
+    background-color: #4CAF50; /* Verde para el enlace activo */
+    color: white;
+    border-radius: 5px;
+}
+
+#contact-link-ejemplo {
+    color: #FFC107; /* Un color ámbar para destacar el enlace de contacto */
+}
+
+.ejemplo-main-selectores {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.ejemplo-article-selectores {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ejemplo-main-selectores h2 {
+    color: #333;
+}
+
+.ejemplo-main-selectores p {
+    color: #555;
+}
+
+.ejemplo-main-selectores p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.ejemplo-main-selectores p a:hover {
+    text-decoration: underline;
+}
+
+.ejemplo-main-selectores a[target] {
+    font-style: italic;
+}
+
+.ejemplo-main-selectores a[target="_blank"]::after {
+    content: " (externo)";
+    font-size: 0.8em;
+    color: #777;
+}
+
+.ejemplo-section-selectores {
+    border: 1px dashed #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ejemplo-main-selectores input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+.ejemplo-main-selectores input[type="text"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.ejemplo-main-selectores button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ejemplo-main-selectores button:hover {
+    background-color: #0056b3;
+}
+
+.ejemplo-footer-selectores {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
